@@ -1,3 +1,14 @@
+#|
+
+(*) Find the last box of a list.
+
+Example:
+* (my-last '(a b c d))
+(D)
+
+|#
+
+
 ;; Easiest way
 (defun last-element-reverse (x)
   (car (reverse x)))
